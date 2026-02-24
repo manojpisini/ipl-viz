@@ -1,0 +1,343 @@
+{
+  "2008": {
+    "semifinal_1": {
+      "teams": ["Rajasthan Royals", "Delhi Daredevils"],
+      "winner": "Rajasthan Royals"
+    },
+    "semifinal_2": {
+      "teams": ["Chennai Super Kings", "Kings XI Punjab"],
+      "winner": "Chennai Super Kings"
+    },
+    "final": {
+      "teams": ["Rajasthan Royals", "Chennai Super Kings"],
+      "winner": "Rajasthan Royals"
+    }
+  },
+
+  "2009": {
+    "semifinal_1": {
+      "teams": ["Delhi Daredevils", "Deccan Chargers"],
+      "winner": "Deccan Chargers"
+    },
+    "semifinal_2": {
+      "teams": ["Chennai Super Kings", "Royal Challengers Bangalore"],
+      "winner": "Royal Challengers Bangalore"
+    },
+    "final": {
+      "teams": ["Deccan Chargers", "Royal Challengers Bangalore"],
+      "winner": "Deccan Chargers"
+    }
+  },
+
+  "2010": {
+    "semifinal_1": {
+      "teams": ["Mumbai Indians", "Royal Challengers Bangalore"],
+      "winner": "Mumbai Indians"
+    },
+    "semifinal_2": {
+      "teams": ["Chennai Super Kings", "Deccan Chargers"],
+      "winner": "Chennai Super Kings"
+    },
+    "final": {
+      "teams": ["Chennai Super Kings", "Mumbai Indians"],
+      "winner": "Chennai Super Kings"
+    }
+  },
+
+  "2011": {
+    "qualifier_1": {
+      "teams": ["Chennai Super Kings", "Royal Challengers Bangalore"],
+      "winner": "Chennai Super Kings"
+    },
+    "eliminator": {
+      "teams": ["Mumbai Indians", "Kolkata Knight Riders"],
+      "winner": "Mumbai Indians"
+    },
+    "qualifier_2": {
+      "teams": ["Royal Challengers Bangalore", "Mumbai Indians"],
+      "winner": "Royal Challengers Bangalore"
+    },
+    "third_place": {
+      "teams": ["Mumbai Indians", "Royal Challengers Bangalore"],
+      "winner": "Royal Challengers Bangalore"
+    },
+    "final": {
+      "teams": ["Chennai Super Kings", "Royal Challengers Bangalore"],
+      "winner": "Chennai Super Kings"
+    }
+  },
+
+  "2012": {
+    "qualifier_1": {
+      "teams": ["Delhi Daredevils", "Kolkata Knight Riders"],
+      "winner": "Kolkata Knight Riders"
+    },
+    "eliminator": {
+      "teams": ["Mumbai Indians", "Chennai Super Kings"],
+      "winner": "Chennai Super Kings"
+    },
+    "qualifier_2": {
+      "teams": ["Chennai Super Kings", "Delhi Daredevils"],
+      "winner": "Chennai Super Kings"
+    },
+    "third_place": {
+      "teams": ["Chennai Super Kings", "Delhi Daredevils"],
+      "winner": "Chennai Super Kings"
+    },
+    "final": {
+      "teams": ["Kolkata Knight Riders", "Chennai Super Kings"],
+      "winner": "Kolkata Knight Riders"
+    }
+  },
+
+  "2013": {
+    "qualifier_1": {
+      "teams": ["Chennai Super Kings", "Mumbai Indians"],
+      "winner": "Chennai Super Kings"
+    },
+    "eliminator": {
+      "teams": ["Rajasthan Royals", "Sunrisers Hyderabad"],
+      "winner": "Rajasthan Royals"
+    },
+    "qualifier_2": {
+      "teams": ["Rajasthan Royals", "Mumbai Indians"],
+      "winner": "Mumbai Indians"
+    },
+    "third_place": {
+      "teams": ["Rajasthan Royals", "Mumbai Indians"],
+      "winner": "Rajasthan Royals"
+    },
+    "final": {
+      "teams": ["Chennai Super Kings", "Mumbai Indians"],
+      "winner": "Mumbai Indians"
+    }
+  },
+
+  "2014": {
+    "qualifier_1": {
+      "teams": ["Kings XI Punjab", "Kolkata Knight Riders"],
+      "winner": "Kings XI Punjab"
+    },
+    "eliminator": {
+      "teams": ["Chennai Super Kings", "Mumbai Indians"],
+      "winner": "Chennai Super Kings"
+    },
+    "qualifier_2": {
+      "teams": ["Chennai Super Kings", "Kolkata Knight Riders"],
+      "winner": "Kolkata Knight Riders"
+    },
+    "final": {
+      "teams": ["Kings XI Punjab", "Kolkata Knight Riders"],
+      "winner": "Kolkata Knight Riders"
+    }
+  },
+
+  "2015": {
+    "qualifier_1": {
+      "teams": ["Chennai Super Kings", "Mumbai Indians"],
+      "winner": "Mumbai Indians"
+    },
+    "eliminator": {
+      "teams": ["Royal Challengers Bangalore", "Rajasthan Royals"],
+      "winner": "Royal Challengers Bangalore"
+    },
+    "qualifier_2": {
+      "teams": ["Royal Challengers Bangalore", "Chennai Super Kings"],
+      "winner": "Chennai Super Kings"
+    },
+    "final": {
+      "teams": ["Mumbai Indians", "Chennai Super Kings"],
+      "winner": "Mumbai Indians"
+    }
+  },
+
+  "2016": {
+    "qualifier_1": {
+      "teams": ["Gujarat Lions", "Royal Challengers Bangalore"],
+      "winner": "Royal Challengers Bangalore"
+    },
+    "eliminator": {
+      "teams": ["Sunrisers Hyderabad", "Kolkata Knight Riders"],
+      "winner": "Sunrisers Hyderabad"
+    },
+    "qualifier_2": {
+      "teams": ["Sunrisers Hyderabad", "Gujarat Lions"],
+      "winner": "Sunrisers Hyderabad"
+    },
+    "final": {
+      "teams": ["Royal Challengers Bangalore", "Sunrisers Hyderabad"],
+      "winner": "Sunrisers Hyderabad"
+    }
+  },
+
+  "2017": {
+    "qualifier_1": {
+      "teams": ["Mumbai Indians", "Rising Pune Supergiant"],
+      "winner": "Rising Pune Supergiant"
+    },
+    "eliminator": {
+      "teams": ["Sunrisers Hyderabad", "Kolkata Knight Riders"],
+      "winner": "Kolkata Knight Riders"
+    },
+    "qualifier_2": {
+      "teams": ["Rising Pune Supergiant", "Kolkata Knight Riders"],
+      "winner": "Rising Pune Supergiant"
+    },
+    "final": {
+      "teams": ["Mumbai Indians", "Rising Pune Supergiant"],
+      "winner": "Mumbai Indians"
+    }
+  },
+
+  "2018": {
+    "qualifier_1": {
+      "teams": ["Sunrisers Hyderabad", "Chennai Super Kings"],
+      "winner": "Chennai Super Kings"
+    },
+    "eliminator": {
+      "teams": ["Kolkata Knight Riders", "Rajasthan Royals"],
+      "winner": "Kolkata Knight Riders"
+    },
+    "qualifier_2": {
+      "teams": ["Sunrisers Hyderabad", "Kolkata Knight Riders"],
+      "winner": "Sunrisers Hyderabad"
+    },
+    "final": {
+      "teams": ["Chennai Super Kings", "Sunrisers Hyderabad"],
+      "winner": "Chennai Super Kings"
+    }
+  },
+
+  "2019": {
+    "qualifier_1": {
+      "teams": ["Mumbai Indians", "Chennai Super Kings"],
+      "winner": "Mumbai Indians"
+    },
+    "eliminator": {
+      "teams": ["Delhi Capitals", "Sunrisers Hyderabad"],
+      "winner": "Delhi Capitals"
+    },
+    "qualifier_2": {
+      "teams": ["Chennai Super Kings", "Delhi Capitals"],
+      "winner": "Chennai Super Kings"
+    },
+    "final": {
+      "teams": ["Mumbai Indians", "Chennai Super Kings"],
+      "winner": "Mumbai Indians"
+    }
+  },
+
+  "2020": {
+    "qualifier_1": {
+      "teams": ["Mumbai Indians", "Delhi Capitals"],
+      "winner": "Mumbai Indians"
+    },
+    "eliminator": {
+      "teams": ["Sunrisers Hyderabad", "Royal Challengers Bangalore"],
+      "winner": "Sunrisers Hyderabad"
+    },
+    "qualifier_2": {
+      "teams": ["Delhi Capitals", "Sunrisers Hyderabad"],
+      "winner": "Delhi Capitals"
+    },
+    "final": {
+      "teams": ["Mumbai Indians", "Delhi Capitals"],
+      "winner": "Mumbai Indians"
+    }
+  },
+
+  "2021": {
+    "qualifier_1": {
+      "teams": ["Delhi Capitals", "Chennai Super Kings"],
+      "winner": "Chennai Super Kings"
+    },
+    "eliminator": {
+      "teams": ["Royal Challengers Bangalore", "Kolkata Knight Riders"],
+      "winner": "Kolkata Knight Riders"
+    },
+    "qualifier_2": {
+      "teams": ["Kolkata Knight Riders", "Delhi Capitals"],
+      "winner": "Kolkata Knight Riders"
+    },
+    "final": {
+      "teams": ["Chennai Super Kings", "Kolkata Knight Riders"],
+      "winner": "Chennai Super Kings"
+    }
+  },
+
+  "2022": {
+    "qualifier_1": {
+      "teams": ["Gujarat Titans", "Rajasthan Royals"],
+      "winner": "Gujarat Titans"
+    },
+    "eliminator": {
+      "teams": ["Lucknow Super Giants", "Royal Challengers Bangalore"],
+      "winner": "Royal Challengers Bangalore"
+    },
+    "qualifier_2": {
+      "teams": ["Rajasthan Royals", "Royal Challengers Bangalore"],
+      "winner": "Rajasthan Royals"
+    },
+    "final": {
+      "teams": ["Gujarat Titans", "Rajasthan Royals"],
+      "winner": "Gujarat Titans"
+    }
+  },
+
+  "2023": {
+    "qualifier_1": {
+      "teams": ["Gujarat Titans", "Chennai Super Kings"],
+      "winner": "Chennai Super Kings"
+    },
+    "eliminator": {
+      "teams": ["Lucknow Super Giants", "Mumbai Indians"],
+      "winner": "Mumbai Indians"
+    },
+    "qualifier_2": {
+      "teams": ["Chennai Super Kings", "Mumbai Indians"],
+      "winner": "Chennai Super Kings"
+    },
+    "final": {
+      "teams": ["Chennai Super Kings", "Gujarat Titans"],
+      "winner": "Chennai Super Kings"
+    }
+  },
+
+  "2024": {
+    "qualifier_1": {
+      "teams": ["Kolkata Knight Riders", "Sunrisers Hyderabad"],
+      "winner": "Kolkata Knight Riders"
+    },
+    "eliminator": {
+      "teams": ["Rajasthan Royals", "Royal Challengers Bangalore"],
+      "winner": "Rajasthan Royals"
+    },
+    "qualifier_2": {
+      "teams": ["Sunrisers Hyderabad", "Rajasthan Royals"],
+      "winner": "Sunrisers Hyderabad"
+    },
+    "final": {
+      "teams": ["Kolkata Knight Riders", "Sunrisers Hyderabad"],
+      "winner": "Kolkata Knight Riders"
+    }
+  },
+
+  "2025": {
+    "qualifier_1": {
+      "teams": ["Punjab Kings", "Royal Challengers Bangalore"],
+      "winner": "Punjab Kings"
+    },
+    "eliminator": {
+      "teams": ["Gujarat Titans", "Mumbai Indians"],
+      "winner": "Mumbai Indians"
+    },
+    "qualifier_2": {
+      "teams": ["Punjab Kings", "Mumbai Indians"],
+      "winner": "Punjab Kings"
+    },
+    "final": {
+      "teams": ["Royal Challengers Bangalore", "Punjab Kings"],
+      "winner": "Royal Challengers Bangalore"
+    }
+  }
+}

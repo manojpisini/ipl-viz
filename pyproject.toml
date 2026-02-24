@@ -1,0 +1,14 @@
+[project]
+name = "ipl-viz"
+version = "0.1.0"
+description = "IPL match replay and visualization engine"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "graphviz>=0.21",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.0",
+    "pygame>=2.6.1",
+    "pymunk>=7.2.0",
+    "requests>=2.32.5",
+]

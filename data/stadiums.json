@@ -1,0 +1,150 @@
+{
+  "cricket_standards": {
+    "pitch": {
+      "length_m": 20.12,
+      "width_m": 3.05,
+      "length_ft": 66,
+      "width_ft": 10
+    },
+    "infield_radius_m": 27.4,
+    "infield_radius_yd": 30,
+    "surface": "Natural or artificial turf"
+  },
+  "stadiums": [
+    {
+      "name": "M. Chinnaswamy Stadium",
+      "location": "Bengaluru, India",
+      "dimensions": { "width_m": 131.8, "length_m": 133.7, "area_m2": 13840, "straight_boundary_m": 72.5, "square_boundary_m": 62.5 }
+    },
+    {
+      "name": "Eden Gardens",
+      "location": "Kolkata, India",
+      "dimensions": { "width_m": 136.5, "length_m": 141.0, "area_m2": 14643, "straight_boundary_m": 77.0, "square_boundary_m": 67.0 }
+    },
+    {
+      "name": "Wankhede Stadium",
+      "location": "Mumbai, India",
+      "dimensions": { "width_m": 134.0, "length_m": 152.0, "area_m2": 15990, "straight_boundary_m": 76.0, "square_boundary_m": 65.0 }
+    },
+    {
+      "name": "Arun Jaitley Stadium",
+      "location": "Delhi, India",
+      "dimensions": { "width_m": 130.0, "length_m": 138.0, "area_m2": 14088, "straight_boundary_m": 68.0, "square_boundary_m": 65.0 }
+    },
+    {
+      "name": "MA Chidambaram Stadium",
+      "location": "Chennai, India",
+      "dimensions": { "width_m": 135.0, "length_m": 145.0, "area_m2": 15374, "straight_boundary_m": 75.0, "square_boundary_m": 68.0 }
+    },
+    {
+      "name": "Narendra Modi Stadium",
+      "location": "Ahmedabad, India",
+      "dimensions": { "width_m": 150.0, "length_m": 160.0, "area_m2": 18850, "straight_boundary_m": 75.0, "square_boundary_m": 70.0 }
+    },
+    {
+      "name": "Rajiv Gandhi International Stadium",
+      "location": "Hyderabad, India",
+      "dimensions": { "width_m": 145.0, "length_m": 155.0, "area_m2": 17651, "straight_boundary_m": 75.0, "square_boundary_m": 68.0 }
+    },
+    {
+      "name": "Sawai Mansingh Stadium",
+      "location": "Jaipur, India",
+      "dimensions": { "width_m": 150.0, "length_m": 156.0, "area_m2": 18378, "straight_boundary_m": 78.0, "square_boundary_m": 72.0 }
+    },
+    {
+      "name": "PCA IS Bindra Stadium",
+      "location": "Mohali, India",
+      "dimensions": { "width_m": 145.0, "length_m": 158.0, "area_m2": 17992, "straight_boundary_m": 78.0, "square_boundary_m": 73.0 }
+    },
+    {
+      "name": "Ekana Cricket Stadium",
+      "location": "Lucknow, India",
+      "dimensions": { "width_m": 156.0, "length_m": 160.0, "area_m2": 19600, "straight_boundary_m": 77.5, "square_boundary_m": 67.5 }
+    },
+    {
+      "name": "Maharaja Yadavindra Singh Stadium",
+      "location": "Mullanpur, India",
+      "dimensions": { "width_m": 132.0, "length_m": 148.0, "area_m2": 15340, "straight_boundary_m": 74.0, "square_boundary_m": 65.5 }
+    },
+    {
+      "name": "ACA-VDCA Cricket Stadium",
+      "location": "Visakhapatnam, India",
+      "dimensions": { "width_m": 135.0, "length_m": 145.0, "area_m2": 15374, "straight_boundary_m": 74.0, "square_boundary_m": 68.0 }
+    },
+    {
+      "name": "HPCA Stadium",
+      "location": "Dharamshala, India",
+      "dimensions": { "width_m": 128.0, "length_m": 140.0, "area_m2": 14074, "straight_boundary_m": 70.0, "square_boundary_m": 64.0 }
+    },
+    {
+      "name": "Barsapara Cricket Stadium",
+      "location": "Guwahati, India",
+      "dimensions": { "width_m": 130.0, "length_m": 145.0, "area_m2": 14805, "straight_boundary_m": 74.0, "square_boundary_m": 65.0 }
+    },
+    {
+      "name": "JSCA International Stadium",
+      "location": "Ranchi, India",
+      "dimensions": { "width_m": 145.0, "length_m": 150.0, "area_m2": 17082, "straight_boundary_m": 75.0, "square_boundary_m": 70.0 }
+    },
+    {
+      "name": "Saurashtra Cricket Association Stadium",
+      "location": "Rajkot, India",
+      "dimensions": { "width_m": 140.0, "length_m": 145.0, "area_m2": 15943, "straight_boundary_m": 70.0, "square_boundary_m": 68.0 }
+    },
+    {
+      "name": "Holkar Cricket Stadium",
+      "location": "Indore, India",
+      "dimensions": { "width_m": 120.0, "length_m": 135.0, "area_m2": 12723, "straight_boundary_m": 68.0, "square_boundary_m": 56.0 }
+    },
+    {
+      "name": "DY Patil Stadium",
+      "location": "Navi Mumbai, India",
+      "dimensions": { "width_m": 140.0, "length_m": 155.0, "area_m2": 17043, "straight_boundary_m": 78.0, "square_boundary_m": 68.0 }
+    },
+    {
+      "name": "Maharashtra Cricket Association Stadium",
+      "location": "Pune, India",
+      "dimensions": { "width_m": 145.0, "length_m": 150.0, "area_m2": 17082, "straight_boundary_m": 74.0, "square_boundary_m": 68.0 }
+    },
+    {
+      "name": "Dubai International Cricket Stadium",
+      "location": "Dubai, UAE",
+      "dimensions": { "width_m": 140.0, "length_m": 148.0, "area_m2": 16273, "straight_boundary_m": 74.0, "square_boundary_m": 70.0 }
+    },
+    {
+      "name": "Sheikh Zayed Cricket Stadium",
+      "location": "Abu Dhabi, UAE",
+      "dimensions": { "width_m": 145.0, "length_m": 155.0, "area_m2": 17651, "straight_boundary_m": 76.0, "square_boundary_m": 70.0 }
+    },
+    {
+      "name": "Sharjah Cricket Stadium",
+      "location": "Sharjah, UAE",
+      "dimensions": { "width_m": 130.0, "length_m": 124.0, "area_m2": 12660, "straight_boundary_m": 62.0, "square_boundary_m": 65.0 }
+    },
+    {
+      "name": "Wanderers Stadium",
+      "location": "Johannesburg, SA",
+      "dimensions": { "width_m": 150.0, "length_m": 155.0, "area_m2": 18260, "straight_boundary_m": 78.0, "square_boundary_m": 72.0 }
+    },
+    {
+      "name": "Centurion Park",
+      "location": "Centurion, SA",
+      "dimensions": { "width_m": 145.0, "length_m": 150.0, "area_m2": 17082, "straight_boundary_m": 75.0, "square_boundary_m": 70.0 }
+    },
+    {
+      "name": "Kingsmead Cricket Ground",
+      "location": "Durban, SA",
+      "dimensions": { "width_m": 140.0, "length_m": 145.0, "area_m2": 15943, "straight_boundary_m": 72.0, "square_boundary_m": 68.0 }
+    },
+    {
+      "name": "St George's Park",
+      "location": "Gqeberha, SA",
+      "dimensions": { "width_m": 145.0, "length_m": 150.0, "area_m2": 17082, "straight_boundary_m": 75.0, "square_boundary_m": 70.0 }
+    },
+    {
+      "name": "Newlands Cricket Ground",
+      "location": "Cape Town, SA",
+      "dimensions": { "width_m": 142.0, "length_m": 148.0, "area_m2": 16505, "straight_boundary_m": 74.0, "square_boundary_m": 68.0 }
+    }
+  ]
+}
