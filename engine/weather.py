@@ -12,9 +12,11 @@ from pathlib import Path
 
 import requests
 
+from engine.paths import get_resource_path
+
 log = logging.getLogger(__name__)
 
-CACHE_FILE = Path("data/weather_cache.json")
+CACHE_FILE = get_resource_path("data/weather_cache.json")
 USER_AGENT = "IPLViz/1.0 (historical_weather_feature)"
 
 

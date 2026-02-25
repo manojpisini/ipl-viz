@@ -1,6 +1,7 @@
 import pygame
 from engine.state import MatchState, PlayerStats, BowlerStats
 from ui.match_table import abbreviate_teams
+from engine.paths import get_resource_path
 
 HUD_HEIGHT = 80
 
@@ -44,7 +45,7 @@ class HUD:
         import os
         self.icons = {}
         for name in ("rewind", "arrow-left", "play", "pause", "arrow-right", "speed-", "speed+"):
-            path = os.path.join("images", "controls", f"{name}.png")
+            path = get_resource_path(os.path.join("images", "controls", f"{name}.png"))
             try:
                 img = pygame.image.load(path).convert_alpha()
                 self.icons[name] = pygame.transform.smoothscale(img, (32, 32))

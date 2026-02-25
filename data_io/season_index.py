@@ -3,9 +3,11 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
+from engine.paths import get_resource_path
+
 log = logging.getLogger(__name__)
 
-IPL_JSON_DIR = Path("data/ipl_json")
+IPL_JSON_DIR = get_resource_path("data/ipl_json")
 CACHE_FILENAME = ".index.json"
 
 logging.basicConfig(level=logging.WARNING)

@@ -33,6 +33,7 @@ from ui.title_bar import draw_title_bar
 from ui.match_table import MatchTable, abbreviate_teams
 from ui.hud import HUD
 from ui.view_selector import ViewSelector
+from engine.paths import get_resource_path
 
 
 class Cfg:
@@ -116,7 +117,7 @@ class IPLVizApp:
             "thunder": "thunder.png",
         }
         summary_keys = {"clear", "cloudy", "rain", "thunder", "cloudy_sun", "cloudy_wind", "drizzle"}
-        base = Path("images") / "weather"
+        base = get_resource_path("images/weather")
 
         for key, fname in names.items():
             try:

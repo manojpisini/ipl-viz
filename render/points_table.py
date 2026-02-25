@@ -18,6 +18,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.path import Path as MplPath
 
+from engine.paths import get_resource_path
+
 from data.team_registry import(
     TEAM_COLORS as TEAM_COLORS_RGB,
     TEAM_COLORS_HEX,
@@ -52,8 +54,8 @@ class PointsTableView:
         self.current_tab = "standings"
         self.tab_rects   = {}
 
-        self.points_data   = self._load("data/points_table.json")
-        self.playoffs_data = self._load("data/playoffs.json")
+        self.points_data   = self._load(get_resource_path("data/points_table.json"))
+        self.playoffs_data = self._load(get_resource_path("data/playoffs.json"))
         self.tree_cache    = {}
 
     @staticmethod

@@ -1,0 +1,59 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build-windows:
+    name: Build Windows Release
+    runs-on: windows-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install uv
+        run: curl -LsSf https://astral.sh/uv/install.ps1 | iex
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Build executable
+        run: python scripts/build_executable.py
+
+      - name: Package Release
+        shell: pwsh
+        run: |
+          $Version = $env:GITHUB_REF_NAME
+          # Zip the contents of the dist folder
+          Compress-Archive -Path "dist/ipl-viz/*" -DestinationPath "ipl-viz-$Version-windows.zip"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: ipl-viz-*-windows.zip
+          draft: false
+          prerelease: false
+          body: |
+            ## IPL-Viz Release ${{ github.ref_name }}
+
+            Automatic build of the IPL match replay and visualization engine.
+
+            ### 📦 Installation
+            1. Download `ipl-viz-${{ github.ref_name }}-windows.zip` from the assets below.
+            2. Extract the ZIP file to a location of your choice.
+            3. Run `ipl-viz.exe` to launch the application.
+
+            ### 📋 Requirements
+            - **OS**: Windows 10/11
+            - **Fonts**: The application looks best with `JetBrainsMono NF` (Nerd Font) installed, but will fall back to `Arial` if not found.
