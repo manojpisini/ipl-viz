@@ -33,18 +33,29 @@ jobs:
       - name: Build executable
         run: python scripts/build_executable.py
 
+      - name: Verify build output
+        shell: pwsh
+        run: |
+          if (Test-Path "dist/ipl-viz/ipl-viz.exe") {
+            Write-Host "Build verified: dist/ipl-viz/ipl-viz.exe exists."
+          } else {
+            Write-Error "Build failed: dist/ipl-viz/ipl-viz.exe not found."
+            exit 1
+          }
+
       - name: Package Release
         shell: pwsh
         run: |
           $Version = $env:GITHUB_REF_NAME
-          # Zip the contents of the dist folder
-          Compress-Archive -Path "dist/ipl-viz/*" -DestinationPath "ipl-viz-$Version-windows.zip"
+          Compress-Archive -Path "dist/ipl-viz" -DestinationPath "ipl-viz-$Version-windows.zip"
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
+          tag_name: ${{ github.ref_name }}
           files: ipl-viz-*-windows.zip
+          fail_on_unmatched_files: true
           draft: false
           prerelease: false
           body: |
