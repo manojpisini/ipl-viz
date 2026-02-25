@@ -9,6 +9,7 @@
 [![License](https://img.shields.io/badge/License-MIT-F9CD05?style=for-the-badge)](LICENSE)
 [![Data](https://img.shields.io/badge/Matches-1170+-E91E63?style=for-the-badge)](https://cricsheet.org)
 [![uv](https://img.shields.io/badge/Package-uv-7C3AED?style=for-the-badge)](https://docs.astral.sh/uv/)
+[![Releases](https://img.shields.io/github/v/release/manojpisini/ipl-viz?style=for-the-badge&color=blue)](https://github.com/manojpisini/ipl-viz/releases)
 
 <br>
 
@@ -201,6 +202,9 @@ cd ipl-viz
 
 # Install dependencies with uv (recommended)
 uv sync
+
+# Alternatively, download the latest standalone executable
+# [Download for Windows](https://github.com/manojpisini/ipl-viz/releases/latest)
 
 # Or with pip
 pip install -r requirements.txt
